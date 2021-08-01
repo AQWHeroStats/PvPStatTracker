@@ -4,7 +4,8 @@
 - We provide a brief sample analysis with each graph.
 
 ## Interactability
-We use Plotly, a Python (and JS) based plotting library that allows for interactive visualizations to be made. Click on the legend to isolate traces or click on dropdown menu(s) to change the data displayed. 
+- We use Plotly, a Python (and JS) based plotting library that allows for interactive visualizations to be made. Click on the legend to isolate traces or click on dropdown menu(s) to change the data displayed. 
+**- Hovering over the charts with your mouse will display additional details. **
 
 ## Individual Stats Over Time
 **Click the dropdown menu to change views**
@@ -16,6 +17,7 @@ We use Plotly, a Python (and JS) based plotting library that allows for interact
 - Hus dealt a large share of his damage to mobs, largely indicating that his team dominated mana regeneration.
 
 ## Team Stat Share
+**Click the dropdown menu to change views**
 - The share of damage recieved on both teams was split about evenly between the three players.
 - Despite this, both damage classes (Axell5 and Dragonoid) died the majority of times on both teams.
 
