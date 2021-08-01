@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Project Description
+- We have parsed game packets from [this PvP Match](https://hero.pics/PvP/999786) and produced the plots you see below. Note that the code is higly modular and can be repeated for any match played. 
+- This is a demonstration, for final deployment the code would need to be deployed to a server and allow users to query games from the frontend.
+- We provide a brief sample analysis with each graph.
 
-You can use the [editor on GitHub](https://github.com/AQWHeroStats/PvPStatTracker/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Interactability
+We use Plotly, a Python (and JS) based plotting library that allows for interactive visualizations to be made. Click on the legend to isolate traces or click on dropdown menu(s) to change the data displayed. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Individual Stats Over Time
+**Click the dropdown menu to change views**
+- Comparing the damage dealt traces of Dragonoid and Axell5, we see that Dragonoid was able to out-damage Axell5 near the end of the match, likely leading to his team winning.
+- Redsnake_ was able to stay at or above Zephite's total healing, also contributing to his team winning.
 
-### Markdown
+## Individual Target Selection
+- Both teams took on a strategy of having thier damage dealer target the enemy healer/bard while thier healer targeted the enemy damage dealer.
+- Hus dealt a large share of his damage to mobs, largely indicating that his team dominated mana regeneration.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Team Stat Share
+- The share of damage recieved on both teams was split about evenly between the three players.
+- Despite this, both damage classes (Axell5 and Dragonoid) died the majority of times on both teams.
 
-```markdown
-Syntax highlighted code block
+## Team Stats Over Time
+**Click the dropdown menu to change views**
+- Looking at total team kills, 1150 seconds is a good place for Team A to review the game tape, as they had a 24-17 lead, and let Team B creep back into the game, making it a close ending. 
+- Team A consistently had higher mob damage than Team B, suggesting that they controlled the middle room for most of the match. 
 
-# Header 1
-## Header 2
-### Header 3
+## Team Stat Lead Over Time
+**Click the dropdown menu to change views**
+- Team A was consistently able to deliver more damaget than Team B.
 
-- Bulleted
-- List
+## Damage Distribution
+- Although Axell5's maximum damage (4.9K) was higher than that of Dragonoid, Dragonoid's median damage was 30 points higher than Axell5.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AQWHeroStats/PvPStatTracker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Healing Distribution
+- Tystnad's median heal recieved was 1000 points higher than Hus. 
