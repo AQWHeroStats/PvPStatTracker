@@ -5,7 +5,7 @@
 
 ## Interactability
 - We use Plotly, a Python (and JS) based plotting library that allows for interactive visualizations to be made. Click on the legend to isolate traces or click on dropdown menu(s) to change the data displayed. 
-**- Hovering over the charts with your mouse will display additional details. **
+- **Hovering over the charts with your mouse will display additional details. **
 
 ## Individual Stats Over Time
 **Click the dropdown menu to change views**
